@@ -1,0 +1,28 @@
+.app-header .navbar {
+  position: relative;
+  padding: 0.5rem 1rem;
+}
+
+.app-header .nav {
+  display: block;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.app-header .navbar-brand {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 115.19%;
+  letter-spacing: 0.025em;
+}
+
+.app-header .navbar-nav .nav-item {
+  float: left;
+}
+
+.app-header .navbar-nav .nav-item + .nav-item {
+  margin-left: 1rem;
+}
