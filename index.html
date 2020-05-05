@@ -2,7 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <title>EventBizPro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -10,44 +16,166 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="index.css" />
-    <title>EventBizPro</title>
   </head>
   <body>
-    <nav class="navbar navbar-light app-header">
-      <div class="container">
-        <a href="/" class="navbar-brand">
-          <div class="top-navbar-brand">EventBizPro</div>
-          <div class="bottom-navbar-brand">организация семинаров</div>
-        </a>
-        <ul class="nav navbar-nav pull-xs-right">
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              Преимущества
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              Отзывы
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              Консультация
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              Кейсы
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              Контакты
-            </a>
-          </li>
-        </ul>
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <a href="#" class="href"><img src="images/logo.svg" alt="EventBizPro" class="logo"></a>
+            </div>
+            <div class="offset-1 col-7">
+              <ul class="menu">
+                <li><a href="#">Преимущества</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Консультация</a></li>
+                <li><a href="#">Кейсы</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="offset-1 col-1">
+              <a href="#" class="href"><img src="images/phone.svg" alt="EventBizPro" class="phone"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="first-block">
+      <div class="offer">
+        <div class="container">
+          <div class="offer-title">
+            <div>Организация семинаров</div>
+            <div>и коучингов <span>под ключ</span></div>
+          </div>
+          <div class="offer-description">
+            <div>Оставьте заявку до <span>10 октября </span>и получите</div>
+            <div>и получите в подарок кейтеринг <span>на 10 персон</span></div>
+          </div>
+          <div class="offer-list">
+            <div><i class="fas fa-check"></i> Конференции</div>
+            <div><i class="fas fa-check"></i> Тимбилдинги и корпоративы</div>
+            <div><i class="fas fa-check"></i> Бизнес-завтраки</div>
+          </div>
+          
+          <div class="offer-footer row">
+            <div class="col-6">
+              <button class="offer-button">Оставить заявку</button>
+            </div>
+            <div class="col-6">
+              <div class="social-media-icons">
+                <a href="#"><img src="images/facebook-icon.png" alt="facebook" class="icon"></a>
+                <a href="#"><img src="images/twitter-icon.png" alt="twitter" class="icon"></a>
+                <a href="#"><img src="images/instagram-icon.png" alt="instagram" class="icon"></a>
+                <a href="#"><img src="images/youtube-icon.png" alt="youtube" class="icon"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer-line">
+          <hr>
+        </div>
       </div>
-    </nav>
+
+      <div class="advantages">
+        <div class="container">
+          <div class="advantages-header-title">
+            <div>4 Главных преимущества</div>
+            <div class="advantages-header-description">Благодаря которым нам доверили уже 473 семинаров и коучингов</div>
+            <hr>
+          </div>
+          <!-- <div class="row">
+            <div class="advantages-block">
+              
+              <div class="col-6">
+                <img src="images/icon_1.png" alt="icon1">
+                
+                <h3 class="advantages-title">
+                  Многолетний опыт
+                </h3>
+                <p class="advantages-description">
+                  Занимаемся профессиональной организацией с 2006 года
+                </p>
+                
+              </div>
+              <div class="col-6">
+                <img src="images/icon_2.png" alt="icon2">
+
+                <h3 class="advantages-title">
+                  Многолетний опыт
+                </h3>
+                <p class="advantages-description">
+                  Занимаемся профессиональной организацией с 2006 года
+                </p>
+              </div>
+            </div>
+          </div> -->
+          <div class="row">
+				
+            <!-- start: Icon Boxes -->
+            <div class="icons-box-vert-container">
+    
+              <!-- start: Icon Box Start -->
+              <div class="span6">
+                <div class="icons-box-vert">
+                  <img src="images/icon_1.png" alt="icon1">
+                  <div class="icons-box-vert-info">
+                    <h3>Easy to use</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <!-- end: Icon Box-->
+    
+              <!-- start: Icon Box Start -->
+              <div class="span6">
+                <div class="icons-box-vert">
+                  <img src="images/icon_1.png" alt="icon1">
+                  <div class="icons-box-vert-info">
+                    <h3>Best choice</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <!-- end: Icon Box -->
+    
+              <!-- start: Icon Box Start -->
+              <div class="span6">
+                <div class="icons-box-vert">
+                  <img src="images/icon_1.png" alt="icon1">
+                  <div class="icons-box-vert-info">
+                    <h3>Fully Responsive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <!-- end: Icon Box -->
+    
+              <!-- start: Icon Box Start -->
+              <div class="span6">
+                <div class="icons-box-vert">
+                  <img src="images/icon_1.png" alt="icon1">
+                  <div class="icons-box-vert-info">
+                    <h3>Social Network</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <!-- end: Icon Box -->
+    
+            </div>
+            <!-- end: Icon Boxes -->
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
